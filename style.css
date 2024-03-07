@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Garamond, serif;
+}
+
+.main-Container {
+  width: 90%;
+  margin: auto;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  font-size: 22px;
+}
+
+footer {
+  clear:both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  background-color: #393C48;
+  height: 140px;
+  color: white;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+/*New York University*/
+.nyu{
+  background-color: #8B139C;
+  color: #D7D8D6;
+  text-align: center;
+}
+
+.nyuInfo{
+  color: #2E2D29;
+  
+}
+
+div.scroll-nyu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-nyu img {
+  padding: 10px;
+}
+
+/*Columbia University*/
+.cu{
+  background-color: #4a85c8;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.cuInfo{
+  color: #2E2D29;
+}
+
+div.scroll-cu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-cu img {
+  padding: 10px;
+}
+
+/*Hunter College*/
+.hc{
+  background-color: #5f259f;
+  color: #ffc72a;
+  text-align: center;
+}
+
+.hcInfo{
+  color: #2E2D29;
+}
+
+div.scroll-hc {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-hc img {
+  padding: 10px;
+}
